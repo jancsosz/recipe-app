@@ -6,6 +6,8 @@
     background-color: cornflowerblue;
 }
 
-#header {
+#header a {
+    text-decoration: none;
     font-family: 'Birthstone', cursive;
+    color: black;
 }

@@ -11,3 +11,29 @@
     font-family: 'Birthstone', cursive;
     color: black;
 }
+
+.new-recipe-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.recipes {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.submit-button {
+    width: fit-content;
+}
